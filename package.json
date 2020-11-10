@@ -1,0 +1,16 @@
+{
+  "name": "demo-of-google-cloud-issue",
+  "version": "0.0.1",
+  "node": "12.13.x",
+  "description": "Maia Node Apps",
+  "main": "index.js",
+  "scripts": {
+    "reproduce": "node index.js"
+  },
+  "author": "Alexey Cherkashin <goodniceweb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/compute": "^2.1.0"
+  },
+  "devDependencies": {}
+}
