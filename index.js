@@ -38,9 +38,8 @@ async function reproduce () {
         machineType: config.machineType,
         disks: [{
           autoDelete: true,
-          boot: true,
           initializeParams: {
-            diskSideGb: 50,
+            diskSizeGb: 50,
             sourceImage: 'https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20201028'
           }
         }]
