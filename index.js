@@ -37,6 +37,7 @@ async function reproduce () {
         http: true,
         machineType: config.machineType,
         disks: [{
+          // boot: true,
           autoDelete: true,
           initializeParams: {
             diskSizeGb: 50,
